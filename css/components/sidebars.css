@@ -1,0 +1,55 @@
+.small-sidebar {
+    background-color: #251B24;
+    height: 100vh;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.large-sidebar {
+    background-color: #4B3948;
+    height: 100vh;   
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.large-sidebar section {
+    display: inline-block;
+}
+
+.fa-circle { 
+    color: #1FE5BD;
+}
+
+
+.large-sidebar p {
+    display: inline-block;
+    color: #8E828C;
+}
+
+.channels p {
+    margin-bottom: 0;
+}
+
+.direct-messages p {
+    color: #8E828C;
+    display: block;
+    margin-bottom: 0;
+}
+
+h1, h6 {
+    color: white;
+    font-weight: bold;
+}
+
+h5 {
+    color: white;
+    background-color: #514950;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+

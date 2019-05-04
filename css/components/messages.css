@@ -1,0 +1,50 @@
+.user {
+    font-weight: bold;
+    margin-bottom: 0;
+
+  }
+
+.avatar {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.user-message {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.user-message:not(:first-child) {
+    margin-top: 20px;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.content p {
+    margin-bottom: 0;
+}
+
+.boris {
+    margin-bottom: 95px;
+}
+
+.chat-history {
+    margin-bottom: 170px;
+    padding-top: 0;
+    margin-top: 15px;
+}
+
+.input-message {
+    margin-left: 15px;
+    width: 97%;
+    position: sticky;
+    bottom: 0;
+}
+
+.boris-messages {
+    padding-top: 10px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+    <div class="cards">
+      <div class="small-sidebar">
+        <h5>LW</h5>
+        <h5>SL</h5>
+      </div>
+      <div class="large-sidebar">
+        <h1>Le Wagon</h1>
+        <section><i class="fas fa-circle small"></i></section> 
+        <p>arthur-littm</p>
+        <br>
+        <br>
+        <div class="channels">
+          <h6>Channels</h6>
+          <p><i class="fab fa-slack-hash"></i> Le Wagon</p>
+          <p><i class="fab fa-slack-hash"></i> Velis Family</p>
+          <p><i class="fab fa-slack-hash"></i> BlackRock</p>
+        </div>
+        <br>
+        <div class="direct-messages">
+          <h6>Direct Messages</h6>
+          <p><i class="fas fa-circle small" style="color: #1FE5BD"></i> Nohely</p>
+          <p><i class="fas fa-circle small" style="color: #1FE5BD"></i> Carlos</p>
+          <p><i class="fas fa-circle small" style="color: #1FE5BD"></i> Karla</p>
+          <p><i class="fas fa-circle small" style="color: #1FE5BD"></i> Joanna</p>
+          <p><i class="fas fa-circle small" style="color: #8E828C"></i> Abby</p>
+          <p><i class="fas fa-circle small" style="color: #8E828C"></i> Salomon</p>
+          <p><i class="fas fa-circle small" style="color: #8E828C"></i> Aaron</p>
+        </div>
+      </div>
+      <div class="chat-window">
+        <div class="chat-title">
+          <h3><i class="fab fa-slack-hash"></i> design</h3>
+        </div>
+        <div class="chat-history">
+          <div class="user-message">
+            <img class='avatar' src="https://kitt.lewagon.com/placeholder/users/arthur-littm" alt="">
+            <div class="content"> 
+              <p class='user'>arthur-littm</p>
+              <p>Hey everyone 👋 We’ve just launched a new Le Wagon UI Kit 🚀 👉 https://uikit.lewagon.com/</p> 
+            </div>
+          </div>
+          <div class="user-message">
+            <img class='avatar' src="https://kitt.lewagon.com/placeholder/users/cveneziani" alt=""> 
+            <div class="content">
+              <p class='user'>cveneziani</p>
+              <p>yay! 🤘</p>
+            </div>  
+          </div>
+          <div class="user-message">
+            <img class='avatar' src="https://kitt.lewagon.com/placeholder/users/pdunleav" alt=""> 
+            <div class="content">
+              <p class='user'>pdunleav</p>
+              <p>That looks great, why don't you add a .card like on dribbble with a cool hover effect? 😎</p>
+            </div>
+          </div>
+          <div class="user-message">
+            <img class='avatar' src="https://kitt.lewagon.com/placeholder/users/barangerbenjamin" alt=""> 
+            <div class="content">
+              <p class='user'>barangerbenjamin</p>
+              <p>Does it work on Linux? 🤓</p>
+          </div>
+          </div>
+          <div class="user-message">
+            <img class='avatar boris' src="https://kitt.lewagon.com/placeholder/users/papillard" alt=""> 
+            <div class="content">
+            <p class='user'>papillard</p>
+              <p>Hi designers! A little tutorial I’ve made (french only, 🇬🇧 version coming soon!!!) covering:</p>
+              <p>- UX data (GA, Hotjar) and how to use it to re-think your sitemap</p>
+              <p>- Advanced UX workflow (Sketch > Invision > Abstract)</p>
+              <p>👉 https://kitt.lewagon.com/knowledge/tutorials/ux_advanced</p>
+              <p>Hope you’ll enjoy 📺 !</p>
+          </div>
+          </div>
+        </div>
+        <div class="input-message">
+          <input class='form-control' type="text" placeholder="Type your message...">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
